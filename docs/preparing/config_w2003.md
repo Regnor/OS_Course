@@ -6,7 +6,7 @@
 
 1. Запустите **Oracle VM VirtualBox Manager** и нажмите на панели кнопку **New** 
 
-![New virtual VM](images/image3.png)
+![New virtual VM](images/Image3.png)
 
 2. В диалоге **Name and operating system** заполните поля
 
@@ -19,41 +19,41 @@
 
 И нажмите **Next**
 
-![Name and operating system](images/image4.png)
+![Name and operating system](images/Image4.png)
 
 3. В диалоге **Memory size** укажите размер используемой памяти в **1024 MB** и нажмите **Next**
 
-![Memory size](images/image5.png)
+![Memory size](images/Image5.png)
 
 4. В диалоге **Hard disk**: 
 - выберите пункт **Use an existing virtual hard disk file** и нажмите значок выбора диска
-![Existing hard disk](images/image6.png)
+![Existing hard disk](images/Image6.png)
 
 - в открывшемся диалоге нажмите кнопку **Add** 
 
-![Add hard disk](images/image7.png)
+![Add hard disk](images/Image7.png)
 
 - выберите файл **Win2k3R2EE.vhd** из архива Windows 2003 Evaluation Edition
 
-![Select vhd file](images/image8.png)
+![Select vhd file](images/Image8.png)
 
 - после возвращения в диалог выбора образа убедитесь, что выбранный вами файл подсвечен и нажмите **Choose** 
 
-![Select image](images/image9.png)
+![Select image](images/Image9.png)
 
 - удостоверьтесь, что выбран правильный файл образа и нажмите **Create**
 
-![Create VM](images/image10.png)
+![Create VM](images/Image10.png)
 
 ## Первый запуск и установка расширений VirtualBox на гостевую машину
 
 1. Выделите в списке только что созданную машину и нажмите кнопку **Start**
 
-![Start VM](images/image11.png)
+![Start VM](images/Image11.png)
 
 2. Дождитесь предупреждения о том, что ОС является пробной
 
-![Evaluation message](images/image12.png)
+![Evaluation message](images/Image12.png)
 
 - нажмите OK
 - выставите нужную Time Zone (например **GMT+04:00 Baku**)
@@ -64,21 +64,21 @@
 
 **Внимание!!!** Если в процессе настройки машина перестанет реагировать на ваши действия на несколько минут выключите машину и запустите её заново. Для этого закройте окно сессии с машиной и выберите **Power off of the machine**
 
-![Power off](images/image13.png)
+![Power off](images/Image13.png)
 
 3. Дождитесь появления приглашения на вход (оно может сопровождаться сообщениями об ошибках - просто проигнорируйте и закройте окно)
 
-![VM started](images/image14.png)
+![VM started](images/Image14.png)
 
 4. Залогиньтесь в систему для этого:
 
 - выберите в меню консоли виртуальной машины пункт **Input\\Keyboard\\Insert Ctrl-Alt-Del**
 
-![Send Ctrl Alt Del](images/image15.png)
+![Send Ctrl Alt Del](images/Image15.png)
 
 - введите логи и пароль (Administrator/Evaluation1)
 
-![Enter password](images/image16.png)
+![Enter password](images/Image16.png)
 
 5. На открывшемся рабочем столе 
 
@@ -89,19 +89,19 @@
 
 - выберите в меню консоли виртуальной машины пункт **Devices\\Insert Guest Additions CD Image**
 
-![Guest CD](images/image18.png)
+![Guest CD](images/Image18.png)
 
 - в открывшемся на гостевой ОС установщике последовательно нажмите **Next**, **Next**, **Install**
 
 - при появлении в процессе установки предупреждениях об установке новых устройств, нажимать **Yes** или **Continue Anyway**
 
-![Alert](images/image17.png)
+![Alert](images/Image17.png)
 
-![Alert2](images/image19.png)
+![Alert2](images/Image19.png)
 
 - по завершении работы выберите **Reboot now** и нажмите **Finish**
 
-![Select reboot](images/image20.png)
+![Select reboot](images/Image20.png)
 
 - дождитесь перезагрузки машины 
 
@@ -112,7 +112,7 @@
 - запустите виртуальную машину
 - в меню включите пункт **Input\\Mouse integration**
 
-![Mouse integration](images/image21.png)
+![Mouse integration](images/Image21.png)
 
 - проверьте, что при щелчке мышью она больше не "захватывается" (можно щелкнуть внутри окна виртуальной машины, а затем спокойно увести мышь за пределы окна виртуалки)
 
@@ -120,4 +120,4 @@
 
 - в меню Devices настройте **Drag & Drop** и **Shared Clipboard** (можно выбрать режим Bidirectional)
 
-![Integration](images/image22.png)
+![Integration](images/Image22.png)
