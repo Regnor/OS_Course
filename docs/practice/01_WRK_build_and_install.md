@@ -61,7 +61,7 @@ Build.bat x86
 - откройте меню **Tools\\Folder Options...**
 - на закладке **View** снимите галочку **Hide protected operating system files**
 
-![Unhide system files](images/image1.png)
+![Unhide system files](images/Image1.png)
 
 - в свойствах файла **boot.ini** снимите галочку **Read only** 
 
@@ -71,7 +71,7 @@ Build.bat x86
 multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="WRK" /kernel=wrkx86.exe /hal=halacpim.dll /debug /debugport=COM1
 ```
 
-![boot.ini](images/image2.png)
+![boot.ini](images/Image2.png)
 
 Сохраните и закройте файл.
 
