@@ -1,0 +1,6 @@
+!WRK-v1.2/tools/**
+!WRK-v1.2/WS03SP1HALS/**
+WRK-v1.2/base/ntos/BUILD/obji386/**
+WRK-v1.2/base/ntos/BUILD/objamd64/**
+WRK-v1.2/base/ntos/BUILD/EXE/**
+!**/Placeholder.txt
