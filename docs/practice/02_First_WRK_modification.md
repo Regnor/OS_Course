@@ -96,7 +96,7 @@ DbgPrint("WRK %d: Entering NTQuerySystemInformation!\n", ++NumTimesCalled);
 
 ![Disk letter](images/02/Image8.png)
 
-6. Перейдите на этот диск в **Windows Explorer** (**FAR Manager** или любом ином навигаторе) и скопируйте скомпилированный вами диск по прежнему пути (но с другой буквой диска!) **<виртуальный_диск>:\\Windows\\System32**
+6. Перейдите на этот диск в **Windows Explorer** (**FAR Manager** или любом ином навигаторе) и скопируйте скомпилированное ранее ядро в папку **<виртуальный_диск>:\\Windows\\System32**
 
 7. Вернитесь в остнастку **Conputer management** и отсоедините диск (на Windows 7 его, возможно, сначала нужно будет перевести в состояние **Offline**)
 
