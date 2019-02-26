@@ -8,7 +8,6 @@
 - подключаться отладчиком из пакета Windows Debugging Tools к ядру
 
 ## Необходимые нструменты
-
 - пакет WRK
 - виртуальная машина c Windows 2003 
 - пакет Windows Debugging Tools
