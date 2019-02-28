@@ -55,6 +55,7 @@ ccobjs= \
 	$(OBJ)\rundown.obj		\
 	$(OBJ)\pushlock.obj		\
 	$(OBJ)\keyedevent.obj
+	$(OBJ)\mycall.obj
 
 !include $(ntos)\BUILD\makefile.build
 
